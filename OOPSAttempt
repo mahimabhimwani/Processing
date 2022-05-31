@@ -3,9 +3,10 @@ int b=0;
 int c=0;
 int d=0;
 
-int diameter = 20;
-int height = 480;
-int width = 640;
+static final int diameter = 20;
+static final int height = 480;
+static final int width = 640;
+
 void settings(){
   size(width,height);
 }
@@ -13,6 +14,7 @@ void settings(){
 void setup(){
    
     }
+    
 void draw(){
       OopsAttempt oa= new OopsAttempt();
   oa.display();
