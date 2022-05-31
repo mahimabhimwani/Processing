@@ -1,0 +1,26 @@
+public static final int DIAMETER = 10;
+    public static final int WIDTH = 640;
+    public static final int HEIGHT = 320;
+    int a = 0, b= 0, c = 0, d = 0;
+
+    public void settings() {
+        size(WIDTH, HEIGHT);
+    }
+
+    public void setup() {   
+    }
+
+    public void draw(){
+        ellipse(a, HEIGHT / 5, DIAMETER, DIAMETER);
+        a++;
+
+        ellipse(b, (HEIGHT * 2) / 5, DIAMETER, DIAMETER);
+        b += 2;
+
+        ellipse(c, (HEIGHT * 3) / 5, DIAMETER, DIAMETER);
+        c += 3;
+
+        ellipse(d, (HEIGHT * 4) / 5, DIAMETER, DIAMETER);
+        d += 4;
+
+    }
